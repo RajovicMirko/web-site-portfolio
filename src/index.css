@@ -14,8 +14,10 @@ body {
 .navbar {
   position: relative !important;
   position: sticky !important;
+  position: fixed !important;
   top: 0 !important;
   z-index: 10;
+  width: 100%;
 }
 
 .mr-logo {
@@ -25,33 +27,40 @@ body {
   border-radius: 10px;
 }
 
-header,
+#home,
 #about-me,
 #technology,
 #portfolio,
 #contact {
   display: grid;
-  grid-template-rows: 1fr;
+  /* ie11 */
+  display: -ms-grid;
+  -ms-grid-columns: 1fr;
+  -ms-grid-rows: 1fr;
 }
 
-header {
+#home
+ {
   min-height: 100vh;
+  /* ie11 */
+  height: 100vh;
+  -ms-flex-pack: center;
+
   background-image: url("assets/header/Space-Stars-Black-Background-Gif-1920x1080.gif");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-header .contact-list {
+#home .contact-list {
   font-size: 3rem;
-  /* width: 20%; */
 }
 
-header .contact-list a {
+#home .contact-list a {
   color: white;
 }
 
-header .contact-list a:hover {
+#home .contact-list a:hover {
   transform: scale(1.1);
 }
 
