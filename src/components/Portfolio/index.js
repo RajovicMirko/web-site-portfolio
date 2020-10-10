@@ -55,7 +55,7 @@ function index() {
         },
         {
           id: "2",
-          value: "NPM-package",
+          value: "NPM",
           link: "https://www.npmjs.com/package/vue-form-terminator",
         },
       ],
