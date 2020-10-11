@@ -1,9 +1,9 @@
 import React from "react";
 
-function index({ title, cards }) {
+function index({ title, cards, addClass }) {
   return (
-    <div className="container h-100">
-      <div className="card mt-6">
+    <div className={`container ${addClass}`}>
+      <div className="page-card card mt-6">
         <div className="card-header text-center bg-secondary text-light">
           <h4 className="m-0">{title}</h4>
         </div>

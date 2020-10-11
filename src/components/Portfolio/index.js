@@ -85,7 +85,7 @@ function index() {
 
   return (
     <section id="portfolio" data-hash="portfolio">
-      <Page title="Portfolio" cards={portfolioList} />
+      <Page title="Portfolio" cards={portfolioList} addClass="mb-5" />
     </section>
   );
 }
