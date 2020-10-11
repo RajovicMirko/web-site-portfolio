@@ -48,7 +48,7 @@ body {
 
   background-image: url("assets/header/Space-Stars-Black-Background-Gif-1920x1080.gif");
   background-position: center;
-  background-size: cover;
+  background-size: 210% 210%;
   background-repeat: no-repeat;
 }
 
