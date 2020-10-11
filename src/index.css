@@ -56,6 +56,16 @@ body {
   background-repeat: no-repeat;
 }
 
+.home-text-wrapper{
+  background-color: rgba(128, 128, 128, 0.5);
+  width: 100%;
+}
+
+.home-title {
+  font-size: 3.8rem;
+  font-weight: 500;
+}
+
 #home .contact-list {
   font-size: 3rem;
 }
@@ -70,7 +80,8 @@ body {
 
 .page-title {
   position: sticky;
-  font-size: 2rem;
+  font-size: 3.8rem;
+  font-weight: 500;
   top: 0.3rem;
   left: 1rem;
   z-index: 10;
