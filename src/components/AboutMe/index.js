@@ -13,7 +13,7 @@ function index() {
       ]
     },
     {
-      title: "Objectiv",
+      title: "Objective",
       text: [
         "To obtain junior/medior Frontend Developer position in an environment that I can contribute my programming passion and continue to develop experience and professional growth."
       ]
