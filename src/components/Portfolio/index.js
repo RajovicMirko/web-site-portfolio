@@ -6,6 +6,7 @@ import PortfolioCard from "./portfolioCard";
 import salesControlPNG from "../../assets/portfolio/sales-control.png";
 import chatPNG from "../../assets/portfolio/chat.png";
 import npmPNG from "../../assets/portfolio/npmlogo.png";
+import earthPng from "../../assets/portfolio/earth.png";
 
 function index() {
   const cards = [
@@ -74,6 +75,23 @@ function index() {
           id: "2",
           value: "Live",
           link: "https://vue-form-terminator-live.herokuapp.com/",
+        },
+      ],
+    },
+    {
+      id: "5",
+      img: earthPng,
+      title: "Countries App",
+      actions: [
+        {
+          id: "1",
+          value: "Git project",
+          link: "https://github.com/RajovicMirko/countries",
+        },
+        {
+          id: "2",
+          value: "Live",
+          link: "https://rajovicmirko.github.io/countries/",
         },
       ],
     },
